@@ -6,7 +6,7 @@ import random
 delay=0.1
 wm=turtle.Screen()
 wm.title("Snake Game")
-wm.bgcolor("red")
+wm.bgcolor("white")
 wm.setup(width=600,height=600)
 wm.tracer()
 
@@ -25,7 +25,7 @@ head.direction="up"
 food=turtle.Turtle()
 food.speed(0)
 food.shape("circle")
-food.color("yellow")
+food.color("red")
 food.penup()
 food.goto(0,100)
 
@@ -78,7 +78,7 @@ while True:
        new_segment=turtle.Turtle()
        new_segment.speed(0)
        new_segment.shape("square")
-       new_segment.color("grey")
+       new_segment.color("black")
        new_segment.penup()
        segments.append(new_segment)
 
